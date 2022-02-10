@@ -1,0 +1,24 @@
+{
+  "name": "smart-investor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasminkasem66/smartnvestor-PSD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "homepage": "https://yasminkasem66.github.io/smartnvestor-PSD ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasminkasem66/smartnvestor-PSD/issues"
+  },
+  "homepage": "https://github.com/yasminkasem66/smartnvestor-PSD#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
