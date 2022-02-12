@@ -97,7 +97,9 @@ font size and line height  ****************/
 .absolute {
   position: absolute;
 }
-/* navbar*/
+/******************************************
+ navbar ***********************************/
+
 .navbar {
   background-image: url("assets/bckgrnhdr.gif");
   position: relative;
@@ -106,10 +108,9 @@ font size and line height  ****************/
 .navbar > .flex {
   flex-direction: column;
 }
-
-/* start top  header */
+/******************************************
+start top  header  *************************/
 .top-header {
-  width: 100%;
   justify-content: end;
   align-items: flex-start;
 }
@@ -133,7 +134,7 @@ font size and line height  ****************/
   cursor: auto;
 }
 .JOIN:hover {
-  color: #085175 !important;
+  color: #0b6694 !important;
 }
 .top-header-bg2 {
   background-image: url("assets/top-header-pg2.png");
@@ -145,12 +146,7 @@ font size and line height  ****************/
 }
 .top-header-bg1 .arrow-margin {
   margin-right: 6px;
-  white-space: nowrap;
 }
-.top-header-bg1 .contact-us {
-  white-space: nowrap;
-}
-
 .top-header-bg2 span {
   margin-right: 6px;
 }
@@ -162,11 +158,12 @@ font size and line height  ****************/
   align-self: center;
   margin-right: 9px;
 }
-/* start  middle-header */
+/******************************************
+start  middle-header  **********************/
 .middle-header {
   margin-top: 10px;
 }
-.logo-middle-header {
+.middle-header img {
   cursor: pointer;
 }
 .search-middle-header {
@@ -198,15 +195,16 @@ font size and line height  ****************/
   color: #fff;
   font-size: 14px;
   line-height: 11px;
+  cursor: pointer;
 }
-
 ::placeholder {
   line-height: 12px;
   font-size: 12px;
   color: #828181;
 }
 
-/* start lower header */
+/******************************************
+start lower header  ***********************/
 .lower-header {
   margin-top: 26px;
   align-self: flex-start;
@@ -219,7 +217,6 @@ font size and line height  ****************/
 .lower-header ul {
   align-items: flex-start;
 }
-
 .lower-header ul li {
   padding: 6px 0 7px;
   position: relative;
@@ -230,7 +227,8 @@ font size and line height  ****************/
   margin: 0 auto;
   visibility: hidden;
 }
-/* hover */
+/******************************************
+hover  ************************************/
 .lower-header ul li:hover .All,
 .lower-header ul li:hover .Companies,
 .lower-header ul li:hover .Recommendations,
@@ -238,12 +236,8 @@ font size and line height  ****************/
 .lower-header ul li:hover .Investor {
   visibility: visible;
 }
-
-/* hover */
-
 .lower-header a {
   padding: 7px 6px;
-  /* line-height: 12px; */
   line-height: 9px;
 }
 .lower-header ul .bluebg {
@@ -255,19 +249,21 @@ font size and line height  ****************/
 }
 .lower-header ul li {
   transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
 }
 .lower-header ul li:hover,
 .autofocus {
   background-color: #ff9530;
 }
-
-/* <!-- start gray bar --> */
-
+/******************************************
+start gray bar ****************************/
 .gray-bar-section {
   background-image: url("assets/gray-bar-bg.png") !important;
   margin-bottom: 7px;
 }
-
 .gray-bar-section ul {
   padding: 7px 0;
 }
@@ -281,15 +277,16 @@ font size and line height  ****************/
   color: #fb6b00;
 }
 
-/* Article Section */
+/******************************************
+Article Section****************************/
 .article-section {
   margin-bottom: 9px;
 }
-.article-section-special-alert {
+.special-alert {
   margin-bottom: 10px;
   width: 100%;
 }
-.article-section-special-alert .box1 {
+.special-alert .box1 {
   padding: 10px 8px 12px 12px;
   background-image: url("assets/special-alert-bg1.png");
   background-size: cover;
@@ -299,35 +296,35 @@ font size and line height  ****************/
   color: #fb6b00;
   line-height: 8px;
 }
-.article-section-special-alert .box2 {
+.special-alert .box2 {
   width: calc(100% - 118.6px);
   padding: 12px 0px 11px 10px;
   box-shadow: inset 2px 3px 28px -13px rgba(0, 0, 0, 0.62);
   line-height: 7px;
   border-bottom: 1px solid #cecece;
 }
-
+/****************************************************************
+*****************************************************************/
 .article-item-one {
   width: 307px;
   position: relative;
   flex-direction: column;
 }
-
 .article_img {
   width: 100%;
   height: 290px;
 }
-
 .article-item-two {
   width: 386px;
   padding: 0 26px 0 20px;
 }
-/* .article-item:nth-of-type(3) {
-} */
 .article-item-three {
   width: 307px;
   position: relative;
 }
+
+/****************************************************************
+article-left   **************************************************/
 .sidebar-img {
   flex-direction: column;
   margin-bottom: 6px;
@@ -343,16 +340,13 @@ font size and line height  ****************/
   z-index: 2;
   align-items: center;
 }
-
 .overlay h3 {
   padding-left: 15px;
 }
-
 .article-left-btns {
   background-image: url("assets/special-alert-bg1.png");
   padding: 4px 0 6px 0;
 }
-
 .article-left-btns button {
   border-radius: 2px;
   border: none;
@@ -368,7 +362,6 @@ font size and line height  ****************/
   justify-content: center;
   align-items: center;
 }
-
 .stocks-in-brief {
   border: 1px solid #c1c1c1;
   border-radius: 5px;
@@ -430,11 +423,11 @@ font size and line height  ****************/
   background-position: top 3px left;
   padding-left: 9px;
 }
-/* .background-arrow-orange {
+.background-arrow-orange {
   background-image: url("assets/icon-telephoneMore.png");
   background-repeat: no-repeat;
-  background-position:  center center; 
-} */
+  background-position:  top right; 
+}
 
 .stocks-in-brief-inner a,
 .article-links a {
@@ -443,8 +436,8 @@ font size and line height  ****************/
 .article-links a {
   margin-bottom: 7px;
 }
-/* start article middle */
-
+/******************************************
+start article middle **********************/
 .partial-title {
   padding: 5px 0 11px 0;
 }
@@ -469,10 +462,6 @@ font size and line height  ****************/
   color: #010101;
   margin-bottom: 13px;
 }
-/* .stock-reasearch-left-article-info time,
-.stock-reasearch-left-links time {
-  color: #666666;
-} */
 
 .article-middle-para a {
   color: #fe7801;
@@ -485,7 +474,8 @@ font size and line height  ****************/
   padding: 13px 0 9px 0;
 }
 
-/* start article right */
+/******************************************
+ start article right ************************************/
 .article-right-contain {
   flex-direction: column;
   margin-bottom: 7px;
@@ -511,8 +501,8 @@ font size and line height  ****************/
   height: 20px;
   margin-left: 7px;
 }
-
-/*article-right-listen  */
+/******************************************
+article-right-listen  ************************************/
 .article-right-listen {
   background-image: url("assets/telephon-bg.png");
   flex-wrap: wrap;
@@ -534,11 +524,9 @@ font size and line height  ****************/
   line-height: 8px;
   padding: 4px 9px 5px 6px;
 }
-
 .article-right-listen-links a img {
   margin-right: 6px;
 }
-
 .more {
   background-image: url("assets/bg-more.png");
   background-repeat: repeat;
@@ -547,9 +535,6 @@ font size and line height  ****************/
   padding-left: 31px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  /* padding: 17px 0 19px 0;
-  color: #ff7b04;
-  line-height: 12px; */
 }
 .more a {
   /* padding: 17px 0 17px 0; */
@@ -557,8 +542,8 @@ font size and line height  ****************/
   color: #ff7b04;
   line-height: 12px;
 }
-
-/* membership renewable */
+/******************************************
+membership renewable ************************************/
 .membership-renewal {
   background-color: #9fceec;
   padding: 15px 13px 10px 12px;
@@ -591,7 +576,8 @@ font size and line height  ****************/
   color: #fc7903;
 }
 
-/* follow us */
+/******************************************
+follow us ************************************/
 .follow-us {
   background-color: #e4e4e4;
   border-radius: 4px;
@@ -622,13 +608,12 @@ font size and line height  ****************/
   color: #000;
   align-self: center;
 }
-
-/* ask the expert */
+/******************************************
+ask the expert************************************/
 .ask-the-expert {
   border: 1px solid #c1c1c1;
   border-radius: 5px;
 }
-
 .ask-the-expert-container1 b {
   padding: 11px 21px 10px 25px;
 }
@@ -640,9 +625,7 @@ font size and line height  ****************/
   padding: 17px 25px 13px 13px;
   border-bottom: 1px solid #ababab;
 }
-/* .ask-the-expert-ul li{
-margin-bottom:2px ;
-} */
+
 .ask-the-expert-ul img {
   padding-right: 8px;
   position: relative;
@@ -654,12 +637,11 @@ margin-bottom:2px ;
   justify-content: flex-end;
   padding-right: 16px;
 }
-
-/* start images section */
+/******************************************
+start images section************************************/
 .images-section-container {
   margin-bottom: 14px !important;
 }
-
 .images-section {
   padding: 12px 17px 23px 16px;
   background-image: url("assets/images-section-bg2.png");
@@ -685,7 +667,6 @@ margin-bottom:2px ;
   width: 100%;
   object-fit: cover;
 }
-
 .images-section-text {
   margin-top: 11px;
   width: 175px;
@@ -697,8 +678,8 @@ margin-bottom:2px ;
   color: #336699;
   line-height: 16px;
 }
-
-/* start stock research */
+/******************************************
+start stock research ************************************/
 /*stock-reasearch-sidebar */
 .stock-reasearch-sidebar {
   border-top: 1px solid #ababab;
@@ -717,7 +698,7 @@ margin-bottom:2px ;
   font-size: 12px;
 }
 
-.stock-reasearch-sidebar-heading {
+.stock-reasearch-sidebar h3 {
   padding: 14px 17px 13px 12px;
   display: inline-block;
   color: #666666;
@@ -826,17 +807,16 @@ margin-bottom:2px ;
 .ask-the-expert-investor {
   margin-bottom: 7px;
 }
-
+/******************************************
+stock-reasearch-right-links ***************/
 /* membership upgrade */
 .membership-upgrade {
   background-color: #9fceec;
   padding: 8px 14px 8px 15px;
 }
-
 .membership-upgrade h3 {
   font-size: 14px;
   font-weight: bold !important;
-  /* line-height: 24px; */
   line-height: 15px;
   text-transform: capitalize;
 }
@@ -857,9 +837,8 @@ margin-bottom:2px ;
   padding: 7px 4px 8px 7px;
   background-repeat: no-repeat;
 }
-
-/* investor changes */
-
+/******************************************
+ investor changes  ********************************/
 .stock-reasearch-middle a {
   padding-left: 11px;
 }
@@ -868,13 +847,14 @@ margin-bottom:2px ;
   color: #336699;
   line-height: 16px;
 }
-/* stock research right */
-
+/******************************************
+stock research right  ********************************/
 .stock-reasearch-right-links {
   padding: 11px 15px 17px 10px;
   border-bottom: 1px solid #c1c1c1;
 }
-/* .stock-reasearch-right-links */
+/******************************************
+stock-reasearch-right-links ********************************/
 .stock-reasearch-right-links-second {
   padding: 14px 22px 17px 15px;
 }
@@ -895,8 +875,9 @@ margin-bottom:2px ;
   font-weight: bold !important;
   font-size: 11px;
 }
-
-/* footer */
+/******************************************
+footer ************************************/
+/*  */
 /* padding: 24px 41px 23px 117px; */
 .footer {
   background-image: url("assets/bg.jpg");
@@ -937,8 +918,8 @@ margin-bottom:2px ;
 .email {
   color: #f17f02 !important;
 }
-
-/* copy right */
+/******************************************
+copy right ********************************/
 .copyright {
   flex-direction: column;
   padding-top: 15px;
@@ -951,7 +932,8 @@ small {
   line-height: 18px;
 }
 
-/*Utilities*/
+/******************************************
+Utilities************************************/
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -967,3 +949,11 @@ small {
   background-color: #000;
   margin-left: 0px;
 }
+
+/******************************************
+Media QUery ********************************/
+
+
+
+
+
