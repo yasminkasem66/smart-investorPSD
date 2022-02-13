@@ -538,7 +538,7 @@ article-right-listen  ************************************/
 }
 .more a {
   /* padding: 17px 0 17px 0; */
-  padding-bottom: 19px;
+  padding-bottom: 17px;
   color: #ff7b04;
   line-height: 12px;
 }
@@ -980,7 +980,9 @@ Media QUery ********************************/
   .date,
   .footerone,
   .footertwo,
-  .footerthree
+  .footerthree,
+  .stock-reasearch-investor ,
+  .stock-reasearch-sidebar a
    {
     display: none;
   }
