@@ -223,8 +223,8 @@ start lower header  ***********************/
 }
 .arrow {
   top: 37px;
-  right: 35px;
-  margin: 0 auto;
+  right: 17px;
+  /* margin: 0 auto; */
   visibility: hidden;
 }
 /******************************************
@@ -426,7 +426,7 @@ article-left   **************************************************/
 .background-arrow-orange {
   background-image: url("assets/icon-telephoneMore.png");
   background-repeat: no-repeat;
-  background-position:  top right; 
+  background-position: top right;
 }
 
 .stocks-in-brief-inner a,
@@ -510,11 +510,11 @@ article-right-listen  ************************************/
 }
 .article-right-listen .telephon-img {
   margin-right: 15px;
-  padding-bottom: 24px;
+  padding-bottom: 19px;
 }
 .article-right-listen-links {
   margin-top: 1px;
-  padding-bottom: 22px;
+  padding-bottom: 17px;
 }
 .article-right-listen-links a {
   display: block;
@@ -538,7 +538,7 @@ article-right-listen  ************************************/
 }
 .more a {
   /* padding: 17px 0 17px 0; */
-  padding-bottom: 10px;
+  padding-bottom: 19px;
   color: #ff7b04;
   line-height: 12px;
 }
@@ -952,8 +952,49 @@ Utilities************************************/
 
 /******************************************
 Media QUery ********************************/
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .top-header,
+  .middle-header,
+  .article-section-query,
+  .images-section-query,
+  .stock-reasearch-article,
+  .stock-reasearch-sidebar,
+  .footer-query{
+    flex-direction: column;
+  }
+  .image-and-description {
+    width: 100%;
+    object-fit: cover;
+  }
+  .article-item-one,
+  .article-item-two,
+  .article-item-three{
+    width: 100%;
+  }
+  /* .search-middle-header */
+  .top-header-bg1,
+  .date,
+  .footerone,
+  .footertwo,
+  .footerthree
+   {
+    display: none;
+  }
+}
 
 
-
-
-
+@media screen and (max-width: 600px) {
+  .lower-header ul{
+    flex-direction: column;
+  }
+  .lower-header {
+    width:100%;
+  }
+ .gray-bar-section ul{
+ display: none;
+ }
+}
